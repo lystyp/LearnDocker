@@ -1,0 +1,17 @@
+去官網安裝好docker tool box之後，
+可以開Docker Quickstart Terminal來開cmd下docker指令，
+不知道為什麼一般的cmd不能下
+
+https://github.com/twtrubiks/docker-tutorial
+
+docker run -it ubuntu
+用image建出一個container並且跑起來
+
+docker ps -a
+秀出所有有在跑跟沒再跑的container
+
+docker exec -it <Container ID> bash
+如果有container已經在跑，可以用這個指令進那個container
+
+關於docker的commit
+https://philipzheng.gitbooks.io/docker_practice/content/image/create.html
